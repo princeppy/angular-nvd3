@@ -24,6 +24,7 @@
             <a href="https://github.com/krispo/angular-nvd3/blob/gh-pages/js{{ params.selectedChart.path }}.js" target="_blank" style="float: right; margin-right:20px;">Source</a>
         </div><div class="span spanJT">
             <json-tree json="options" edit-level="high" collapsed-level="2" timeout-init="{{params.mode === 'extended'?700:''}}" timeout="{{params.mode === 'extended'?0:''}}"></json-tree>
+        <pre>{{options|json}}</pre>
         </div>
     </div>
     <div style="float: right; font-size: x-small">
